@@ -1,0 +1,21 @@
+{
+    "modelId": "meta.llama2-70b-chat-v1",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"[INST]You are a a very intelligent bot with exceptional critical thinking[/INST]\\nI went to the market and bought 10 apples. I gave 2 apples to your friend and 2 to the helper. I then went and bought 5 more apples and ate 1. How many apples did I remain with?\\n\\nLet's think step by step.\",\"max_gen_len\":512,\"temperature\":0.5,\"top_p\":0.9}"
+}
+
+
+{
+    "modelId": "anthropic.claude-v2",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"prompt\":\"\\n\\nHuman: I'm going to give you a document. Then I'm going to ask you a question about\\nit. I'd like you to first write down exact quotes of parts of the document that would\\nhelp answer the question, and then I'd like you to answer the question using facts\\nfrom the quoted content. Here is the document:\\n<document>\\nAnthropic: Challenges in evaluating AI systems\\nIntroduction\\nMost conversations around the societal impacts of artificial intelligence (AI) come\\ndown to discussing some quality of an AI system, such as its truthfulness, fairness,\\npotential for misuse, and so on. We are able to talk about these characteristics\\nbecause we can technically evaluate models for their performance in these areas. what many people working inside and outside of AI don’t fully appreciate is how\\ndifficult it is to build robust and reliable model evaluations. Many of today’s\\nexisting evaluation suites are limited in their ability to serve as accurate\\nindicators of model capabilities or safety.\\nAt Anthropic, we spend a lot of time building evaluations to better understand our AI\\nsystems. We also use evaluations to improve our safety as an organization, as\\nillustrated by our Responsible Scaling Policy. In doing so, we have grown to\\nappreciate some of the ways in which developing and running evaluations can be\\nchallenging.\\n\\nAssistant:\",\"max_tokens_to_sample\":2048,\"temperature\":0.5,\"top_k\":250,\"top_p\":1,\"stop_sequences\":[\"\\n\\nHuman:\"],\"anthropic_version\":\"bedrock-2023-05-31\"}"
+}
+
+{
+    "modelId": "stability.stable-diffusion-xl-v0",
+    "contentType": "application/json",
+    "accept": "application/json",
+    "body": "{\"text_prompts\":[{\"text\":\"Sri lanka tea plantation.\",\"weight\":1}],\"cfg_scale\":10,\"seed\":0,\"steps\":50,\"width\":512,\"height\":512}"
+}
